@@ -10,4 +10,4 @@ services:
 #      - /usr/bin/v2ray/v2ctl
 #      - /usr/bin/v2ray/geosite.dat
 #      - /usr/bin/v2ray/geoip.dat
-      - config.json:/etc/v2ray/config.json
+      - ./config.json:/etc/v2ray/config.json
