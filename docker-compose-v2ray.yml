@@ -3,6 +3,7 @@ services:
   v2-ray:
     image: v2ray/official
     container_name: v2ray
+    restart: always
     ports:
       - 10080:10080
     volumes:
