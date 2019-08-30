@@ -1,0 +1,10 @@
+version: '3.6'
+services:
+  v2-ray:
+    image: v2ray/official
+    volumes:
+#      - /usr/bin/v2ray/v2ray
+#      - /usr/bin/v2ray/v2ctl
+#      - /usr/bin/v2ray/geosite.dat
+#      - /usr/bin/v2ray/geoip.dat
+      - /etc/v2ray/config.json
