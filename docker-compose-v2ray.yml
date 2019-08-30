@@ -2,6 +2,9 @@ version: '3.6'
 services:
   v2-ray:
     image: v2ray/official
+    container_name: v2ray
+    ports:
+      - 10080:10080
     volumes:
 #      - /usr/bin/v2ray/v2ray
 #      - /usr/bin/v2ray/v2ctl
